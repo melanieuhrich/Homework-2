@@ -1,0 +1,40 @@
+.header {
+    display: inline;
+}
+
+h1 {
+    margin: 100px;
+}
+
+.image {
+    border: purple 10px solid;
+}
+
+#image1 {
+    width: 850px;
+    height: 600px;
+}
+
+#image2 {
+    width: 425px;
+    height: 300px;
+}
+
+#image3 {
+    width: 425px;
+    height: 300px;
+}
+
+#image4 {
+    width: 425px;
+    height: 300px;
+}
+
+#image5 { 
+    width: 425px;
+    height: 300px;
+}
+
+.contact {
+    display: inline;
+}
