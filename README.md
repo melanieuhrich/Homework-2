@@ -17,10 +17,9 @@ Created a contact section so that employers know where to reach me.
 Adjusted the media query so that my application can be viewed on a variety of devices and maintain a proper setup...
     For both max-width: 769px and max-width: 376px I mainly had to adjust the margins and sizes of the photos to make them fit. 
 
-
 # Image 
 
-![Alt text](/screenshot.png? "Assignment Screenshot")
+![screenshot](?/assets/screenshot.png "Assignment Screenshot")
 
 # Link to Application 
 
