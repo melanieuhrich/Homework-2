@@ -19,7 +19,7 @@ Adjusted the media query so that my application can be viewed on a variety of de
 
 # Image 
 
-![screenshot](?/Assets/screenshot.png)
+![screenshot](/Assets/screenshot.png)
 
 # Link to Application 
 
