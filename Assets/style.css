@@ -1,40 +1,136 @@
+* {
+    background-color: lightblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .header {
     display: inline;
 }
 
-h1 {
-    margin: 100px;
+.nav {
+    margin-right: 0px;
+    margin-left: 500px;
+}
+
+.bio {
+    margin-right: 80px;
+}
+
+.container {
+    position: relative;
 }
 
 .image {
-    border: purple 10px solid;
+    border: black 5px solid;
+    width: 425px;
+    height: 300px;
 }
 
 #image1 {
-    width: 850px;
-    height: 600px;
+    width: 1200px;
+    height: 870px;
 }
 
-#image2 {
-    width: 425px;
-    height: 300px;
-}
+.figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    margin: 10px;
+  }
 
-#image3 {
-    width: 425px;
-    height: 300px;
-}
+.overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    background: rgb (0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
 
-#image4 {
-    width: 425px;
-    height: 300px;
-}
-
-#image5 { 
-    width: 425px;
-    height: 300px;
-}
-
-.contact {
+.contact, h2 {
     display: inline;
+}
+/* iPad */
+@media screen and (max-width: 769px) {
+    * {
+        margin-left: 5px;
+    }
+
+    .header {
+        display: inline;
+    }
+    
+    .nav {
+        margin-right: 0px;
+        margin-left: 60px;
+        display:inline;
+    }
+
+    .bio {
+        margin-right: 50px;
+    }
+
+    .image {
+        border: black 5px solid;
+        width: 270px;
+        height: 190px;
+    }
+    
+    #image1 {
+        width: 625px;
+        height: 437px;
+    }
+
+    .figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    margin: 10px;
+  }
+
+    .overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    background: rgb (0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+}
+
+/* iPhone X */
+@media screen and (max-width: 376px) {
+    .header {
+        display: block;
+    }
+    
+    .nav {
+        margin-right: 0px;
+        margin-left: 0px;
+        display:inline;
+    }
+
+    .bio {
+        margin-right: 0px;
+    }
+
+    .image {
+        border: black 5px solid;
+        width: 300px;
+    }
+    
+    #image1 {
+        width: 300px;
+        height: 200px;
+
+    }
+
+    #work {
+        margin-left: 50px;
+    }
 }
