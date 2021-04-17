@@ -1,73 +1,82 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link rel="stylesheet" type="text/css" href="Assets/style.css"/>
-    </head>
-    <header>
-        <h1 class="header">Melanie Uhrich</h1>
-        <nav class="header nav">
-            <a href="#aboutme">About Me</a>
-            <a href="#work">Work</a>
-            <a href="#contactme">Contact Me</a>
-            <a href="#resume">Resume</a>
-        </nav>
-    </header>
-    <body>
-        <div id="aboutme">
-            <h2>About Me</h2>
-            <p class="bio"> I am a recent graduate from the University of Illinois Urbana-Champaign living in the Chicago area. 
-                After earning my degree in International Relations as well as a minor Spanish, I decided that I 
-                wanted to further enhance my skills, leading to the decision to become a web developer. I wanted to
-                pursue a challenging, creative career path that would give me plenty of options, opportunities, and room
-                to grow. <br>
-                <br>
-                When I'm not working or coding, I enjoy making music, walking my dogs, and roasting coffee! Feel free to 
-                check out some of my work below. 
-            </p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Melanie Uhrich</title>
+</head>
+<header>
+    <nav>
+        <div class="nav-wrapper" id="nav-color">
+          <a href="#" class="brand-logo">Melanie Uhrich</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+            <li><a href="#">Resume</a></li>
+          </ul>
         </div>
-        <h2>Work</h2>
-        <div>
-            <div class="container">
-                <a href="https://melanieuhrich.github.io/MovieGO/" target="_blank"><img id="image1" class="image" src="screenshot.png"></a>
-                <div class="overlay">Movie GO</div>
-            </div>
-        </div>
-        <div id="work"> 
-            <div class="figure">
-                <div class="container">
-                    <img class="image" src="Assets/stock2.jpeg">
-                    <div class="overlay">Project 2</div>
-                </div>
-                <div class="container">
-                    <img class="image" src="Assets/stock3.jpeg">
-                    <div class="overlay">Project 3</div>
-                </div>
-                <div class="container">
-                    <img class="image" src="Assets/stock4.jpeg">
-                    <div class="overlay">Project 4</div>
-                </div>
-                <div class="container">
-                    <img class="image" src="Assets/stock5.jpeg">
-                    <div class="overlay">Project 5</div>
-                </div>
-                <div class="container">
-                    <img class="image" src="Assets/stock6.jpeg">
-                    <div class="overlay">Project 6</div>
-                </div>
-                <div class="container">
-                    <img class="image" src="Assets/stock7.jpeg">
-                    <div class="overlay">Project 7</div>
-                </div>
-            </div>
-        </div> <br>
+    </nav>        
+</header>
+<body>
+    <section id="about-me">
+        <h4>About Me</h4>
+        <p class="bio"> I am a recent graduate from the University of Illinois Urbana-Champaign living in the Chicago area. 
+            After earning my degree in International Relations as well as a minor Spanish, I decided that I 
+            wanted to further enhance my skills, leading to the decision to become a web developer. I wanted to
+            pursue a challenging, creative career path that would give me plenty of options, opportunities, and room
+            to grow. <br>
+            <br>
+            When I'm not working or coding, I enjoy making music, walking my dogs, and roasting coffee! Feel free to 
+            check out some of my work below. 
+        </p>
+    </section>
+    <section id="work">
+        <h4>Work</h4>
         <br>
-        <div id="contactme" class="contact">
-            <h2>Contact Me</h2>
-            <a href="phone" class="info">630.240.8262</a>
-            <a href="email" class="info">muhrich6@gmail.com</a>
-            <a href="GitHub" class="info">GitHub</a>
+        <div class="row">
+            <div class="col s10">
+                <h5>Movie GO</h5>
+                <a href="https://melanieuhrich.github.io/MovieGO/" target="_blank"><img id="image-1" class="image" src="screenshot.png"></a>
+            </div>
         </div>
-    </body>
+        <div class="row">
+            <div class="col s6">
+                <h5>Coding Quiz</h5>
+                <a href="https://melanieuhrich.github.io/Homework-4/#highscoresPage" target="_blank"><img class="image" id="image-2" src="screenshot-4.png"></a>
+            </div>
+            <div class="col s6">
+                <h5>Password Generator</h5>
+                <a href="https://melanieuhrich.github.io/Homework-3/" target="_blank"><img class="image" id="image-3" src="screenshot-3.png"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6">
+                <h5>Work Day Scheduler</h5>
+                <a href="https://melanieuhrich.github.io/Homework-5/" target="_blank"><img class="image" id="image-4" src="screenshot-5.png"></a>
+            </div>
+            <div class="col s6">
+                <h5>Weather Dashboard</h5>
+                <a href="https://melanieuhrich.github.io/Homework-6/" target="_blank"><img class="image" id="image-5" src="screenshot-6.png"></a>
+            </div>
+        </div>
+    </section>
+    <section id="contact-me">
+            <h4 class="header">Contact Me</h4>
+                <div class="row">
+                    <div class="col s12 m5">
+                      <div class="card-panel teal">
+                        <span><a class="info" href="#">630-240-8262</a></span>
+                        <span><a class="info" href="#">muhrich6@gmail.com</a></span>
+                        <span><a class="info" href="https://github.com/melanieuhrich" target="_blank">GitHub</a></span>
+                      </div>
+                    </div>
+                  </div>
+                
+            </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
 </html>
