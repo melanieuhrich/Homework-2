@@ -1,27 +1,18 @@
-# Purpose of Assignment 
+# Professional Portfolio
 
-Create a portfolio that displays a bio, my work, and contact information. 
+This portfolio displays information about me including my bio, previous work, and contact information. 
 
-Create an application that functions on different screen sizes. 
+The media query has been adjusted so that a proper setup is maintained on screens with a maximum width of 769 pixels and screens with a minimum width of 376 pixels.
 
-# What I Did and Why 
+## Contact 
 
-Created a header that included my name and a nav bar with links to each part of the page. 
+If you wish to contact me you can reach me at melanieuhrich13@gmail.com.
 
-Wrote a bio to share information about my education, goals, and fun facts about myself.
+## Screenshot 
 
-Created a work section in which to link what I will create in the future. 
+![screenshot](./Assets/screenshot.png)
 
-Created a contact section so that employers know where to reach me. 
+## Link to Deployed Application 
 
-Adjusted the media query so that my application can be viewed on a variety of devices and maintain a proper setup...
-    For both max-width: 769px and max-width: 376px I mainly had to adjust the margins and sizes of the photos to make them fit. 
-
-# Image 
-
-![screenshot](/Assets/screenshot.png)
-
-# Link to Application 
-
-https://melanieuhrich.github.io/Homework-2/
+https://melanieuhrich.github.io/Professional-Portfolio/
 
