@@ -10,9 +10,9 @@ If you wish to contact me you can reach me at melanieuhrich13@gmail.com.
 
 ## Screenshot 
 
-![screenshot](./Assets/portfolio.png)
+![screenshot](./src/assets/portfolio.png)
 
 ## Link to Deployed Application 
 
-https://melanieuhrich.github.io/Professional-Portfolio/
+https://blissful-hodgkin-d585f4.netlify.app
 
