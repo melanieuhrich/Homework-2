@@ -11,25 +11,25 @@ function ContactPage() {
                 <div class="card text-dark bg-light mb-3 col-4 left">
                     <div class="card-body">
                         <h5 class="card-title">Phone</h5>
-                        <span className="info"><a className="info" href="#">630-240-8262</a></span>
+                        <span className="info" style={{color:'blue'}}>630-240-8262</span>
                     </div>
                 </div>
                 <div class="card text-dark bg-light mb-3 col-4 right">
                     <div class="card-body">
                         <h5 class="card-title">Email</h5>
-                        <span className="info"><a className="info" href="#">muhrich6@gmail.com</a></span>
+                        <span className="info" style={{color:'blue'}}>muhrich6@gmail.com</span>
                     </div>
                 </div>
             </div>
             <div className="row">
                 <div class="card text-dark bg-light mb-3 col-4 left">
                     <div class="card-body">
-                        <h5 class="card-title"><a className="info" href="https://github.com/melanieuhrich" target="_blank">Github</a></h5>
+                        <h5 class="card-title"><a className="info" href="https://github.com/melanieuhrich" target="blank">Github</a></h5>
                     </div>
                 </div>
                 <div class="card text-dark bg-light mb-3 col-4 right">
                     <div class="card-body">
-                        <h5 class="card-title"><a className="info" href="https://www.linkedin.com/in/melanie-uhrich-7aab54173/" target="_blank">LinkedIn</a></h5>
+                        <h5 class="card-title"><a className="info" href="https://www.linkedin.com/in/melanie-uhrich-7aab54173/" target="blank">LinkedIn</a></h5>
                     </div>
                 </div>
             </div>

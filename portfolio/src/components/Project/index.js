@@ -12,13 +12,13 @@ function Project() {
                 {projectData.map(project => (
                     <Col lg={6} className="col-6 project">
                         <h4 className='title'>{project.name}</h4>
-                        <img src={project.image} className='image' />
+                        <img src={project.image} className='image' alt={project.name}/>
                         <Row>
                             <Col lg={6} className='button'>
-                                <a href={project.deployed} target="_blank"><button type="button" className="btn btn-sm btn-light">Deployed Application</button></a>
+                                <a href={project.deployed} target="blank"><button type="button" className="btn btn-sm btn-light">Deployed Application</button></a>
                             </Col>
                             <Col lg={6} className='button'>
-                            <a href={project.github} target="_blank"><button type="button" className="btn btn-sm btn-light">GitHub Repository</button></a>
+                            <a href={project.github} target="blank"><button type="button" className="btn btn-sm btn-light">GitHub Repository</button></a>
                             </Col>
                         </Row>
                     </Col>
