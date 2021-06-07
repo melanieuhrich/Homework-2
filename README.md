@@ -14,5 +14,5 @@ If you wish to contact me you can reach me at melanieuhrich13@gmail.com.
 
 ## Link to Deployed Application 
 
-https://blissful-hodgkin-d585f4.netlify.app
+https://my-portfolio-melanie.netlify.app/
 
