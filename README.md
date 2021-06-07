@@ -10,7 +10,7 @@ If you wish to contact me you can reach me at melanieuhrich13@gmail.com.
 
 ## Screenshot 
 
-![screenshot](./src/assets/portfolio.png)
+![screenshot](./portfolio//src/assets/portfolio.png)
 
 ## Link to Deployed Application 
 
