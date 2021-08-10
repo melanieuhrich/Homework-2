@@ -1,20 +1,27 @@
 import './App.css';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
-import Header from './components/Header';
-import HomePage from './pages/HomePage';
-import ContactPage from './pages/ContactPage';
+import Home from './pages/Home';
+import AboutMe from './pages/AboutMe';
+import Work from './pages/Work';
+import Resume from './pages/Resume';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className='App'>
-      <Router>
-        <Header />
-        <Switch>
-          <Route exact path='/' component={HomePage} />
-          <Route exact path='/contact' component={ContactPage} /> 
-        </Switch>
-      </Router>
-     
+      <div className='image'>
+        <header className='App-header'>
+          <Router>
+            <Navbar />
+            <Switch>
+            <Route exact path='/' component={Home} />
+              <Route exact path='/about' component={AboutMe} />
+              <Route exact path='/work' component={Work} />
+              <Route exact path='/resume' component={Resume} />
+            </Switch>
+          </Router>
+        </header>
+      </div>
     </div>
   );
 }

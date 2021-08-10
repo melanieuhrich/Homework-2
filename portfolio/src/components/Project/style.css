@@ -1,23 +1,43 @@
+.heading {
+    color: rgb(255, 253, 253);
+    margin-top: 60px;
+}
+
+.break {
+    color: rgb(255, 253, 253);
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.work {
+    padding-right: 290px;
+    padding-left: 290px;
+}
+
+
+.screenshot {
+    border: solid;
+    border-color: rgb(255, 253, 253);
+    border-radius: 2%;
+    height: 200px;
+    width: auto;
+}
+
 .project {
-    margin-bottom: 60px
+    margin-bottom: 40px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .title {
-    margin-left: 100px;
-    text-align: left;
+    margin-left: 240px;
+    color: rgb(255, 253, 253);
 }
 
-.image {
-    height: 300px;
-    border: teal 5px solid;
-    border-radius: 10px;
-}
-
-.teal {
-    background-color: teal;
-    color: white;
-}
-
-.button {
-    margin-top: 10px;
+.project-logo {
+    color: rgb(255, 253, 253)!important;
 }

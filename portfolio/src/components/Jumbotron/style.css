@@ -1,0 +1,27 @@
+.jumbo {
+    color: rgb(255, 253, 253);
+}
+
+.headshot {
+    border: solid;
+    border-color: rgb(255, 253, 253);
+    border-radius: 50%;
+}
+
+.name {
+    margin-top: 10px;
+    margin-left: 20px; 
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.profile-logo {
+    color: rgb(255, 253, 253)!important;
+}

@@ -1,6 +1,16 @@
-.work {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-bottom: 30px;
+* {
+    color: rgb(255, 253, 253);
+}
+
+.about {
     text-align: left;
+    margin-top: 60px;
+}
+
+.badge {
+    background-color: rgb(181, 46, 93);
+}
+
+.education {
+    margin-top: 30px;
 }

@@ -1,0 +1,23 @@
+.project {
+    margin-bottom: 60px
+}
+
+.title {
+    margin-left: 100px;
+    text-align: left;
+}
+
+.image {
+    height: 300px;
+    border: teal 5px solid;
+    border-radius: 10px;
+}
+
+.teal {
+    background-color: teal;
+    color: white;
+}
+
+.button {
+    margin-top: 10px;
+}
