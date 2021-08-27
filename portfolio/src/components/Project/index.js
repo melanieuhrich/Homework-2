@@ -7,14 +7,13 @@ import './style.css';
 
 function Project() {
     return (
-        <div>
+        <div className='project'>
             <h1 className='heading'>Projects</h1>
             <hr className='break'></hr>
             <Row className='work'>
                 {projectData.map(project => (
                     <Col className='project'>
                         <Card style={{ width: '9rem', height: '9rem', backgroundColor: 'rgb(64, 154, 174)', color: 'rgb(255, 253, 253)' }}>
-                            {/* <Card.Img variant="top" src={project.image} alt={project.name} /> */}
                             <Card.Body>
                                 <Card.Title>{project.name}</Card.Title>
                                 <div><a href={project.github} target='blank' className='project-logo'><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-github' viewBox='0 0 16 16'>
@@ -25,9 +24,7 @@ function Project() {
                                         <path d='M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z' />
                                     </svg></a></div>
                                 <Card.Text>
-                                    {/* Some quick example text to build on the card title and make up the bulk of
-                                    the card's content. */}
-    </Card.Text>
+                                </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
