@@ -5,7 +5,7 @@ import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 
 function Navbar() {
     return (
-        <SideNav style={{ backgroundColor: 'rgb(181, 46, 93)', opacity: 0.9 }}>
+        <SideNav style={{ backgroundColor: 'rgb(110, 55, 149)', opacity: 0.9 }}>
             <SideNav.Toggle />
             <SideNav.Nav defaultSelected="about">
                 <NavItem eventKey="home">

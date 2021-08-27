@@ -13,7 +13,7 @@ function Project() {
             <Row className='work'>
                 {projectData.map(project => (
                     <Col className='project'>
-                        <Card style={{ width: '9rem', height: '9rem', backgroundColor: 'rgb(131, 177, 225)', color: 'rgb(255, 253, 253)' }}>
+                        <Card style={{ width: '9rem', height: '9rem', backgroundColor: 'rgb(64, 154, 174)', color: 'rgb(255, 253, 253)' }}>
                             {/* <Card.Img variant="top" src={project.image} alt={project.name} /> */}
                             <Card.Body>
                                 <Card.Title>{project.name}</Card.Title>

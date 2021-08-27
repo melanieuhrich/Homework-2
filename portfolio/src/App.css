@@ -3,9 +3,9 @@
 }
 
 .image {
-  background-image: url(./assets/background2.jpeg);
+  background-image: url(./assets/pawel-czerwinski-vBc7xy65us8-unsplash.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1440px 830px;
 }
 
 .App-header {
